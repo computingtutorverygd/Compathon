@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto; /* Center the webpage */
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #F2CEE6;
+    color: #333;
+    padding: 15px;
+    font-size: 24px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #d2ffd5;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a.active {
+    background-color: #F2CEE6;
+    color: #333;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    font-size: 17px;
+}
+
+hr {
+    border: 1px solid #F2CEE6;
+    margin-bottom: 20px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+/* User details styles */
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: inline-block;
+}
+
+form button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #DC3545;
+    color: white;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+/* Add and Edit User links styles */
+a {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/* Active link style */
+a.active {
+    background-color: #007BFF;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #F2CEE6;
+    color: #333;
+
+    bottom: 0;
+    width: 100%;
+}
