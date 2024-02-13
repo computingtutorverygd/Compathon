@@ -1,103 +1,71 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0 auto; /* Center the webpage */
+    margin: 0;
     padding: 0;
-    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
 header {
-    background-color: #F2CEE6;
-    color: #333;
-    padding: 15px;
-    font-size: 24px;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 h1 {
-    margin-bottom: 20px;
-}
-
-.topnav {
-    overflow: hidden;
-    background-color: #d2ffd5;
-}
-
-.topnav a {
-    float: left;
-    display: block;
-    color: #333;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.topnav a.active {
-    background-color: #F2CEE6;
-    color: #333;
-}
-
-.topnav input[type=text] {
-    float: right;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    border: none;
-    font-size: 17px;
-}
-
-hr {
-    border: 1px solid #F2CEE6;
-    margin-bottom: 20px;
+    margin: 0;
 }
 
 section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     margin: 20px;
     padding: 20px;
-    text-align: left;
 }
 
-/* User details styles */
-p {
-    font-size: 18px;
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
     margin-bottom: 10px;
 }
 
-form {
-    display: inline-block;
-}
-
-form button {
-    padding: 8px 16px;
-    border: none;
-    cursor: pointer;
-    background-color: #DC3545;
-    color: white;
-    border-radius: 4px;
-    margin-left: 10px;
-}
-
-/* Add and Edit User links styles */
 a {
-    display: inline-block;
-    padding: 8px 16px;
+    color: #3498db;
     text-decoration: none;
-    color: #007BFF;
-    border: 1px solid #007BFF;
-    border-radius: 4px;
-    margin-right: 10px;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition on hover */
 }
 
-/* Active link style */
-a.active {
-    background-color: #007BFF;
-    color: white;
+a:hover {
+    color: #1a1a1a;
+    text-decoration: underline;
 }
 
 footer {
+    background-color: #1a1a1a;
+    color: #fff;
     text-align: center;
     padding: 10px;
-    background-color: #F2CEE6;
-    color: #333;
+}
 
-    bottom: 0;
-    width: 100%;
+/* Adjusted margin for better spacing */
+section:last-child {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+    header, section, footer {
+        margin: 10px;
+    }
 }
